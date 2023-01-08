@@ -1,0 +1,133 @@
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    background-color: #CF2B2B;
+    height: 92px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+header div {
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: 'Righteous';
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+
+header p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+main {
+    margin-top: 122px;
+    margin-bottom: 112px;
+}
+
+h2 { 
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+article {
+    width: 172px;
+    height: 216px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-left: 20px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article img {
+    width: 144px;
+    height: 87px;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    margin-top: 8px;
+}
+
+article p:nth-child(3) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+    margin-top: 5px;
+}
+
+section p {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+footer {
+    background-color: #FFFFFF;
+    width: 414px;
+    height: 92px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer button{
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    width: 364px;
+    height: 61px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
