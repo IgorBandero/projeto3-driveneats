@@ -152,6 +152,9 @@ footer button{
     text-align: center;
     letter-spacing: 0.018em;
     color: #FFFFFF;
+    border: 0px;
+    outline: none;
+
 }
 
 .prato-selecionado, .bebida-selecionada, .sobremesa-selecionada{
@@ -160,4 +163,9 @@ footer button{
 
 .prato-selecionado img:last-child, .bebida-selecionada img:last-child, .sobremesa-selecionada img:last-child{
     display: inline;
+}
+
+.botao-habilitado {
+    background-color: #32B72F;
+    font-weight: 700;
 }
