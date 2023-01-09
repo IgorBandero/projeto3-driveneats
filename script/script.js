@@ -63,7 +63,7 @@ function confirmaPedido(){
 
 function fechaPedido(){    
     let nome = prompt("Informe o seu nome: ");
-    let endereco = prompt("Informe o seu endereco: ");
+    let endereco = prompt("Informe o seu endereço: ");
     window.open('https://wa.me/5548991712977?text=Olá,%20gostaria%20de%20fazer%20o%20pedido:%0a-%20Prato:%20' + nomePratoPrincipal + '%0a-%20Bebida:%20' + nomeBebida + '%0a-%20Sobremesa:%20' + nomeSobremesa + '%0a%20Total:%20R$%20' + valorTotal +"%0a%0aNome:%20" + nome + "%0aEndereço:%20" + endereco);
 }
 
