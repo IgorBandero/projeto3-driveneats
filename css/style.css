@@ -1,15 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #E5E5E5;
 }
 
 header {
     background-color: #CF2B2B;
+    width: 100%;
     height: 92px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: center;
     position: fixed;
-    width: 100%;
     top: 0;
     left: 0;
     z-index: 2;
@@ -57,6 +61,7 @@ section {
     display: flex;
     justify-content: space-between;
     margin-top: 17px;
+    overflow-x: scroll;
 }
 
 article {
@@ -72,9 +77,25 @@ article {
     justify-content: space-between;
 }
 
+section article:last-child {
+    margin-right: 20px;
+}
+
 article img {
     width: 144px;
     height: 87px;
+}
+
+.img-checked {
+    width: 15px;
+    height: 15px;
+    display: none;
+}
+
+.div-preco {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 h3 {
@@ -108,11 +129,12 @@ section p {
 
 footer {
     background-color: #FFFFFF;
-    width: 414px;
+    width: 100%;
     height: 92px;
     position: fixed;
     bottom: 0px;
     left: 0px;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +143,7 @@ footer {
 footer button{
     background-color: #CBCBCB;
     border-radius: 50px;
-    width: 364px;
+    width: 90%;
     height: 61px;
     font-family: 'Roboto';
     font-weight: 400;
@@ -130,4 +152,12 @@ footer button{
     text-align: center;
     letter-spacing: 0.018em;
     color: #FFFFFF;
+}
+
+.prato-selecionado, .bebida-selecionada, .sobremesa-selecionada{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.prato-selecionado img:last-child, .bebida-selecionada img:last-child, .sobremesa-selecionada img:last-child{
+    display: inline;
 }
