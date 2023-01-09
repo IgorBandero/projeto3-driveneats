@@ -188,6 +188,34 @@
         </button>
     </footer>
 
+    <div class="tela-confirmacao">
+        <section data-test="confirm-order-modal"> 
+            <h3> Confirme seu pedido </h3>
+            <div> 
+                <p class="pratoEscolhido"> </p>
+                <p class="valorPratoEscolhido"> </p>
+            </div>
+            <div> 
+                <p class="bebidaEscolhida"> </p>
+                <p class="valorBebidaEscolhida"> </p>
+            </div>
+            <div> 
+                <p class="sobremesaEscolhida"> </p>
+                <p class="valorSobremesaEscolhida"> </p>
+            </div>
+            <div> 
+                <p> <strong> TOTAL </strong> </p>
+                <p class="valorTotalPedido"> 45 </p>
+            </div>
+            <button data-test="confirm-order-btn" type="button" name="enviar-pedido-final" class="botao-pedir-final" onclick="fechaPedido();">
+                Tudo certo, pode pedir!
+            </button>
+            <button data-test="cancel-order-btn" type="button" name="cancelar-pedido" class="botao-cancelar" onclick="cancelarPedido();">
+                Cancelar
+            </button>
+        </section>
+    </div>
+
     <script src="./script/script.js"></script>
 </body>
 </html>
